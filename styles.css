@@ -1,17 +1,24 @@
-body, html {
-    height: 100%;
-    margin: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  border-style:dotted;
+  box-sizing: border-box;
+}
+.part_1{
+  display: flex;
+  justify-content: center;
+}
+.header_logo{
+  background-color: aqua;
+  display: flex;
+  width: 900px;
+  justify-content: left;
+}
+.link{
+  display: flex;
+  border: 1px solid #fff;
+  background-color: yellow;
+  width:900px;
+  justify-content: space-around;
   
-  .bg {
-    /* The image used */
-    background-image: url("landing_Background.png");
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+}
