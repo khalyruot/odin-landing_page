@@ -7,22 +7,24 @@
   display: flex;
   background-color: #1F2937;
   padding-left: 5%;
-  padding-right: 5%;
+ 
   
 }
 .header_logo{
-  width: 900px;
+  width: 70%;
   justify-content: left;
   font-size: 24px;
   color: #F9FAF8;
+  
 }
 .link{
   display: flex;
-  width:900px;
-  justify-content: space-around;
+  width:60%;
+  justify-content: space-between;
   align-items: flex-end;
   font-size: 18px;
   color: #F9FAF8;
+  margin-right: 10%;
   
 }
 
@@ -50,22 +52,31 @@
 .web_desp{
   font-size: 18px;
   color: #F9FAF8;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .signup{
-  border: none;
   background-color: #3882F6;
   font-size: 18px;
   color:#F9FAF8;
   width: 7rem;
-  height: 1.5rem;
+  height: 2rem;
   border-radius: 0.2rem;
+}
+
+img{
+  width: 80%;
+  height: 80%;
+  border-radius: 5%;
 }
 
 .place_holder{
   display: flex;
-  border: 1px solid #fff;
-  width:900px;
-  justify-content: space-around;
+  width: 70%;
+  justify-content: right;
+  align-items: center;
+  margin-right: 10%;
+ 
 }
 
 .part_3{
